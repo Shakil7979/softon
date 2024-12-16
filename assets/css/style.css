@@ -384,6 +384,24 @@ ul li a,a{
 	background: #E8E8E8;
 }
 
+.btn_1{
+	padding: 3px 7px;
+}
+
+.btn_1 {
+	padding: 3px 7px;
+	border: 1px solid #D3D3D3;
+}
+
+.footer_content a:hover,
+.footer_link{
+	color: #FF2626 !important;
+}
+
+
+
+
+
 
 /*======================  End Page  ======================*/
 /* 
