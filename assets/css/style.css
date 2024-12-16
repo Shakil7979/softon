@@ -1,9 +1,10 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 html{
 	font-size: 62.5%;
 }
 body{	
+    font-family: 'UnDotum';
 	font-size: 1.6rem; 
 	font-weight: 400;
 }
@@ -19,7 +20,132 @@ ul{
 ul li a,a{
 	text-decoration: none;
 }
+
+
 /*======================  Start Page  ======================*/
+
+.menu a ,
+.logo a { 
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 12.13px; 
+	color: #686868;
+}
+
+.menu ul,
+.logo ul {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.menu ul {
+	justify-content: flex-end;
+}
+
+.header_area {
+	padding: 10px 0;
+}
+
+.menu span,
+.logo span {
+	width: 1px;
+	height: 15px;
+	background: #686868;
+	display: block;
+} 
+
+.banner_area {
+	background: url(../images/banner.png) no-repeat scroll center center / cover;
+}
+
+.banner_menu ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.banner_menu{
+	padding: 68px 0 62px 0;
+}
+
+
+.banner_left_box {
+	display: flex;
+	gap: 0; 
+	height: 404px;
+	overflow: hidden;
+}
+
+.banner_form_img img {
+	width: 100%;
+}
+
+.form_banner {
+	padding: 13px 9px;
+	background: #F3EFEF;
+}
+
+.form_group input {
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 100%; 
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.56px; 
+	padding: 6px; 
+	color: #BABABA;
+}
+
+.form_banner form {
+	margin-bottom: 8px;
+}
+
+
+.form_btn button {
+	border: none;
+	background: transparent;
+}
+
+.form_btn button img{
+	width: 100%;
+}
+
+.banner_form_pra > p { 
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 13.34px;
+	text-align: center; 
+	color: #847F7F;
+	margin: 6px 0;
+}
+
+.banner_form_check {
+	text-align: right;
+	margin-bottom: 7px;
+}
+
+.banner_form_social p { 
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 13.34px; 
+	color: #928F8F;
+}
+
+.banner_form_social {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 6px 8px;
+	background: #DEDDDD;
+	border-radius: 1px;
+}
+
+.banner_form_social ul {
+	display: flex;
+	gap: 8px;
+}
+
 
 
 
@@ -28,5 +154,8 @@ ul li a,a{
 
 
 /*======================  End Page  ======================*/
+/* 
 
+font-family: "Inter", sans-serif;
 
+ */

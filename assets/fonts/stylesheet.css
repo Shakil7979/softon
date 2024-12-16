@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'UnDotum';
+    src: url('UnDotum.woff2') format('woff2'),
+        url('UnDotum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UnDotum';
+    src: url('UnDotum-Bold.woff2') format('woff2'),
+        url('UnDotum-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
