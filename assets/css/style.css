@@ -261,8 +261,93 @@ ul li a,a{
 	margin-top: 25px;
 }
 
+.market_area{
+	margin-top: 17px;
+}
+
+.market_title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 11px;
+}
+
+.market_menu ul li a { 
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.56px; 
+	color: #7E7E7E;
+}
+
+.market_menu ul li a.active {
+	color: #AD0000;
+}
+
+.market_menu ul li span {
+	width: 1px;
+	height: 45px;
+	display: block;
+	background-color: #ddd;
+}
+
+.market_menu ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.market_menu {
+	width: 100%;
+	max-width: 90%;
+	margin: 0 auto;
+}
 
 
+.market_single p { 
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.56px; 
+	color: #7E7E7E;
+	margin-top: 25px;
+}
+
+.market_product {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.market_box {
+	background: #F4F4F4;
+	padding: 0 50px 12px 50px;
+}
+
+.content_area img{
+	width: 100%;
+}
+
+.book_area{
+	margin-top: 34px;
+}
+
+.book_img_box {
+	display: flex;
+	gap: 1px;
+	flex-wrap: wrap;
+}
+
+.single_book_img{
+	flex: 0 0 calc(100% / 2 - 1px);
+}
+
+.single_book_img img{
+	width: 100%;
+}
+
+.book_3rd_img img {
+	width: 100%;
+	margin-bottom: 6px;
+}
 
 
 /*======================  End Page  ======================*/
