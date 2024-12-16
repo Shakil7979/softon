@@ -146,8 +146,120 @@ ul li a,a{
 	gap: 8px;
 }
 
+.banner_last{
+	margin-top: 22px;
+}
 
+.single_banner_3 img{
+	width: 100%;
+}
 
+.banner_tabs .nav-item .nav-link {
+	width: 106px;
+	text-align: center;
+	height: 49px;
+	border: 1px solid #ddd; 
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 13.34px; 
+	color: #5A5A5A;
+}
+
+.banner_tabs .nav-tabs .nav-item.show .nav-link, .banner_tabs .nav-tabs .nav-link.active {
+	color: #fff;
+	background-color: #D60000;
+	border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.tabs_content_item {
+	padding: 6px;
+	box-sizing: border-box;
+}
+
+.tabs_content_item p { 
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 13.34px; 
+	margin-top: 18px;
+	color: #A1A1A1;
+}
+
+.banner_3_title{
+	margin-bottom: 11px;
+}
+
+.single_banner_3_form [type="radio"]:checked,
+.single_banner_3_form [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.single_banner_3_form [type="radio"]:checked + label, .single_banner_3_form [type="radio"]:not(:checked) + label {
+	position: relative;
+	padding-left: 28px;
+	cursor: pointer; 
+	font-family: "Inter", sans-serif; 
+	font-size: 9px;
+	font-weight: 400;
+	line-height: 10.89px; 
+	color: #000;
+}
+.single_banner_3_form [type="radio"]:checked + label:before,
+.single_banner_3_form [type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+.single_banner_3_form [type="radio"]:checked + label:after,
+.single_banner_3_form [type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #3F42FF;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.single_banner_3_form [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.single_banner_3_form [type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.form_radio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 13px 0;
+	gap: 25px;
+}
+
+.form_row{
+	width:  100%;
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.single_banner_3.single_banner_heigt img {
+	height: 256px;
+}
+
+.form_row{
+	margin-top: 25px;
+}
 
 
 
